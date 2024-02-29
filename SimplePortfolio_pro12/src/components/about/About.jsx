@@ -21,6 +21,7 @@ function About() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, officiis! Architecto adipisci sapiente esse? Neque assumenda amet omnis aperiam atque laborum eligendi iusto. Quisquam, magni nisi odio fugit placeat temporibus?
             </div>
 
+
             <div className="click">
                 {/* ClickIcons */}
                 ^
