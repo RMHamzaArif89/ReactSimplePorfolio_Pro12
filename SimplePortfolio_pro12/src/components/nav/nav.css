@@ -1,0 +1,56 @@
+.nav{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: skyblue;
+
+}
+.heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.heading .text{
+    font-size: 1.6rem;
+    color: blue;
+    font-family: serif;
+
+}
+.heading img{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 8px;
+}
+.nav ul{
+    display: flex;
+    gap: 14px;
+
+}
+ul li{
+    font-size: 1.3rem;
+    list-style: none;
+    padding: 8px;
+    font-family: serif;
+    text-align: center;
+    border-radius: 8px;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li:hover{
+    background: rgba(0, 0, 0, 0.914);
+    cursor: pointer;
+    color: white;
+}
+
+
+.mode{
+    font-size: 1.4rem;
+    color: black;
+}
+.mode i:hover{
+    color: white;
+    cursor: pointer;
+}
