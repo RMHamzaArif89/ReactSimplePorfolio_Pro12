@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Nav from './components/nav/nav'
 import About from './components/about/About'
 import Services from './components/services/services'
-
+import Project from './components/projects/Project'
 import './App.css'
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
   <Nav/>
   <About/>
   <Services/>
+  <Project/>
   </>
 
  )

@@ -1,0 +1,73 @@
+.project{
+    width: 100vw;
+    min-height: calc(100vh - 70px);
+    max-height: auto;
+    background: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.heading{
+    font-size: 2.5rem;
+    color: black;
+     font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 2% 0;
+}
+.pro-cards{
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap:1.5rem;
+
+}
+.pro-card{
+    width: 30%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pro-img{
+    width: 100%;
+    height: 45%;
+}
+.pro-h{
+    font-size: 1.8rem;
+      font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pro-h2{
+  font-size: 1.4rem;
+  font-family: "Mate", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pro-btn a{
+    padding: 8px;
+    background:red;
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Mate", serif;
+    border-radius: 4px;
+
+}
+.pro-btn a:hover{
+    background: blueviolet;
+    color: black;
+    cursor: pointer;
+
+}
