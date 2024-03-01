@@ -1,15 +1,15 @@
 import React from 'react'
-import './about.css'
+import './home.css'
 
-function About() {
+function Home() {
     return (
-        <div className='about'>
+        <div className='home'>
 
-            <div className="about-h">
+            <div className="home-h">
                 Personal Portfolio
             </div>
-            <div className="about-img">
-                <img src="/images/about-img.jpg" alt="" className="img" />
+            <div className="home-img">
+                <img src="/images/home-img.jpg" alt="" className="img" />
             </div>
             <div className="name">
                 Rana Muhammad Hamza
@@ -31,4 +31,4 @@ function About() {
     )
 }
 
-export default About
+export default Home

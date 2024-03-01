@@ -8,7 +8,7 @@ function Card({img,card_h,card_h2,link}) {
             <div className="pro-h">{card_h}</div>
             <div className="pro-h2">{card_h2}</div>
             <div className="pro-btn">
-            <a href="">link</a>
+            <a href={link} target='#'>Go to Project</a>
             </div>
           
         </div>
