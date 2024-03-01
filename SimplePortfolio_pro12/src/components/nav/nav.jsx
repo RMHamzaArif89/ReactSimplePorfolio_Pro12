@@ -23,7 +23,7 @@ function Nav() {
               </li>
               <li>
                 {/* <Link to='/about'>About</Link> */}
-                Clients
+                Client
               </li>
             </ul>
         </div>
