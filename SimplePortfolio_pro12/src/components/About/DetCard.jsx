@@ -1,12 +1,13 @@
 import React from 'react'
 
-function DetCard() {
+function DetCard({det_h1,det_h2,det_text}) {
   return (
     <div className="det-card">
-    <div className="det-h1"></div>
-    <div className="det-h2"></div>
-    <div className="det-text"></div>
+    <div className="det-h1">{det_h1}</div>
+    <div className="det-h2">{det_h2}</div>
+    <div className="det-text">{det_text}</div>
   </div>
+  
   )
 }
 

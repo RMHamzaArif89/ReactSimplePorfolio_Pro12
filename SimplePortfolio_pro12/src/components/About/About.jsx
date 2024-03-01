@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './about.css'
 import DetCard from './DetCard'
-// import { AboData } from './aboData'
+import { AboData } from './aboData'
 
 
 
@@ -13,8 +13,11 @@ function About() {
       <div className="about-heading">
         Work Detail
       </div>
+      <div className="about-heading">
+        Always tried my best to perform
+      </div>
       <div className="about-con">
-        <img src="/images/about-img" alt="" />
+        <img src="/images/about-img2.jpg" alt="" />
         <div className="details">
           {
             data.map((i) => {

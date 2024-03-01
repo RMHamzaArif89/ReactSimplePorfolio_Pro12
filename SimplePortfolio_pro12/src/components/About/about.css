@@ -1,10 +1,11 @@
 .about{
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 70px);
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+    background: lightsalmon;
 }
 .about-heading{
     font-size: 2.5rem;
@@ -13,26 +14,33 @@
   font-style: normal;
 }
 .about-con{
-    width: 80%;
-    height: 70%;
+    width: 90%;
+    height: 60%;
     display: flex;
 
 }
 .about-con img{
     width: 30%;
     height: 100%;
+    background: red;
 
 }
 .about-con .details{
+    width: 60%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 .details .det-card{
     width: 200px;
-    height: 200px;
+    height: 180px;
     border-radius: 4px;
-    background: lightgray;
+    gap: 12px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background: rgba(241, 241, 241, 0.934);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .det-card .det-h1{
@@ -52,6 +60,6 @@
 }
 .det-card:hover{
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.5), 0 10px 24px 0 rgba(0, 0, 0, 0.40);
 }

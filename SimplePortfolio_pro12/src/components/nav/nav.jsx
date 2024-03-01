@@ -1,5 +1,6 @@
 import React from 'react'
 import './nav.css'
+
 import {Link} from 'react-router-dom'
 
 function Nav() {
@@ -10,20 +11,21 @@ function Nav() {
             <img src="/images/nav-img.jpg" alt="" />
         </div>
         <div className="ul">
-            {/* <ul>
-                <li>
-                <Link to='/home'>About</Link>
+            <ul>
+              <li>
+                <Link to='/services'>Services</Link>
               </li>
               <li>
-                <Link to='/home'>Services</Link>
+                <Link to='/project'>Projects</Link>
               </li>
               <li>
-                <Link to='/home'>Projects</Link>
+                <Link to='/about'>About</Link>
               </li>
               <li>
-                <Link to='/home'>Clients</Link>
+                {/* <Link to='/about'>About</Link> */}
+                Clients
               </li>
-            </ul> */}
+            </ul>
         </div>
 
         <div className="mode">
