@@ -1,0 +1,57 @@
+.about{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.about-heading{
+    font-size: 2.5rem;
+    color: black;
+      font-family: "Kalam", cursive;
+  font-style: normal;
+}
+.about-con{
+    width: 80%;
+    height: 70%;
+    display: flex;
+
+}
+.about-con img{
+    width: 30%;
+    height: 100%;
+
+}
+.about-con .details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.details .det-card{
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    background: lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.det-card .det-h1{
+    font-size: 1.8rem;
+    font-family: "Kalam", cursive;
+    
+}
+.det-card .det-h2{
+    font-size: 1.4rem;
+    font-family: "Kalam", cursive;
+    color: red;
+}
+.det-card .det-text{
+    font-size: 1rem;
+    font-family: serif;
+    text-align: center;
+}
+.det-card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.5), 0 10px 24px 0 rgba(0, 0, 0, 0.40);
+}

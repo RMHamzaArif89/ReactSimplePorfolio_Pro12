@@ -1,4 +1,5 @@
 .home{
+    /* margin-top: 70px; */
     width: 100vw;
     height: calc(100vh - 70px);
     display: flex;
@@ -7,8 +8,7 @@
     justify-content: center;
     gap: 20px;
     background: rgba(144, 238, 144, 0.864);
-    overflow: hidden;
-    /* position: absolute; */
+    
 }
 .home-h{
     font-family: "Madimi One", sans-serif;

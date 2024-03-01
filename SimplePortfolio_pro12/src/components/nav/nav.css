@@ -5,6 +5,10 @@
     align-items: center;
     justify-content: space-around;
     background: skyblue;
+    position:sticky;
+    left: 0;
+    top: 0;
+   
 
 }
 .heading{
