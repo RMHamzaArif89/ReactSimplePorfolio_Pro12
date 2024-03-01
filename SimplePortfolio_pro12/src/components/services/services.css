@@ -1,0 +1,74 @@
+.services{
+    width: 100vw;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    background-color: skyblue;
+
+}
+.services-heading{
+    font-size: 2.6rem;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.services-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+   
+}
+
+.card{
+    width: 45%;
+    height: 35%;
+    border-radius: 20px;
+    display: flex;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card img{
+    width: 40%;
+    height: 100%;
+    background: wheat;
+}
+.card-det{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-h{
+    font-size: 1.4rem;
+   
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 800;
+    font-style: normal;
+    
+}
+.card-h2{
+    font-size: 1.2rem;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+   color: blueviolet;
+    font-style: normal;
+
+}
+.card-text{
+    font-size: 1rem;
+    color: gray;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+
+}
